@@ -1,0 +1,10 @@
+diff --git a/node_modules/react-force-graph/dist/react-force-graph.d.ts b/node_modules/react-force-graph/dist/react-force-graph.d.ts
+index c832b81..4bea0b5 100644
+--- a/node_modules/react-force-graph/dist/react-force-graph.d.ts
++++ b/node_modules/react-force-graph/dist/react-force-graph.d.ts
+@@ -577,4 +577,4 @@ type FCwithRef<P = {}, R = {}> = React.FunctionComponent<P & { ref?: React.Mutab
+ 
+ declare const ForceGraph: FCwithRef<ForceGraphProps, ForceGraphMethods>;
+ 
+-export { ForceGraph as ForceGraph2D, ForceGraph$1 as ForceGraph3D, ForceGraph$2 as ForceGraphAR, ForceGraph$3 as ForceGraphVR };
++export { ForceGraph as ForceGraph2D, ForceGraph$1 as ForceGraph3D, ForceGraph$2 as ForceGraphAR, ForceGraph$3 as ForceGraphVR, ForceGraphMethods$1, NodeObject$1 };
