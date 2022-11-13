@@ -1,0 +1,650 @@
+[
+  {
+    "address": "0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d",
+    "name": "BoredApeYachtClub",
+    "token": "BAYC",
+    "slug": "boredapeyachtclub"
+  },
+  {
+    "address": "0x857fb65e09eda078a7f9b38fb31d0547e606375d",
+    "name": "Ninjarena Box",
+    "token": "NBOX",
+    "slug": "ninjarena-boxes"
+  },
+  {
+    "address": "0x8a90cab2b38dba80c64b7734e58ee1db38b8992e",
+    "name": "Doodles",
+    "token": "DOODLE",
+    "slug": "doodles-official"
+  },
+  {
+    "address": "0x60e4d786628fea6478f785a6d7e704777c86a7c6",
+    "name": "MutantApeYachtClub",
+    "token": "MAYC",
+    "slug": "mutant-ape-yacht-club"
+  },
+  {
+    "address": "0xba30e5f9bb24caa003e9f2f0497ad287fdf95623",
+    "name": "BoredApeKennelClub",
+    "token": "BAKC",
+    "slug": "bored-ape-kennel-club"
+  },
+  {
+    "address": "0x23581767a106ae21c074b2276d25e5c3e136a68b",
+    "name": "Moonbirds",
+    "token": "MOONBIRD",
+    "slug": "proof-moonbirds"
+  },
+  {
+    "address": "0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7",
+    "name": "Meebits",
+    "token": "⚇",
+    "slug": "meebits"
+  },
+  {
+    "address": "0xcbf51c5c72fe7b7e9140a93d10475c4862dbb8a8",
+    "name": "othersoil.xyz Mint Pass",
+    "token": "OSMP",
+    "slug": "othersoil-xyz-mint-pass"
+  },
+  {
+    "address": "0x5f41a5bea0b2a1c45bfbfd52354a0de49abfb8d6",
+    "name": "CRAYON CLUB X BAYC",
+    "token": "CCBC",
+    "slug": "crayon-club-x-bayc-club"
+  },
+  {
+    "address": "0x75a35c67859320baa881c78f91d292174cb6919f",
+    "name": "Colorpencil Club X BAYC",
+    "token": "CCBC",
+    "slug": "colorpencil-club-x-bayc-1"
+  },
+  {
+    "address": "0xf603f99c529b33b0ea1684ec48dba42e78697359",
+    "name": "COLORPENCIL X AZUKI",
+    "token": "CAZUKI",
+    "slug": "colorpencil-x-azuki-1"
+  },
+  {
+    "address": "0x1a92f7381b9f03921564a437210bb9396471050c",
+    "name": "Cool Cats",
+    "token": "COOL",
+    "slug": "cool-cats-nft"
+  },
+  {
+    "address": "0x394e3d3044fc89fcdd966d3cb35ac0b32b0cda91",
+    "name": "RENGA",
+    "token": "RENGA",
+    "slug": "renga"
+  },
+  {
+    "address": "0x30b85729310b49c9be203168d6ae956330852c04",
+    "name": "clonexpets.com Mint Pass",
+    "token": "CXPMP",
+    "slug": "clonexpets-com-mint-pass-v2-1"
+  },
+  {
+    "address": "0xb75f09b4340aeb85cd5f2dd87d31751edc11ed39",
+    "name": "Genesis Box",
+    "token": "GBOX",
+    "slug": "genesis-box"
+  },
+  {
+    "address": "0x466cfcd0525189b573e794f554b8a751279213ac",
+    "name": "Dooplicator",
+    "token": "DOOPL",
+    "slug": "the-dooplicator"
+  },
+  {
+    "address": "0x620b70123fb810f6c653da7644b5dd0b6312e4d8",
+    "name": "Space Doodles",
+    "token": "SDOODLE",
+    "slug": "space-doodles-official"
+  },
+  {
+    "address": "0xed5af388653567af2f388e6224dc7c4b3241c544",
+    "name": "Azuki",
+    "token": "AZUKI",
+    "slug": "azuki"
+  },
+  {
+    "address": "0x1e38e9ad28a526512af9b8689c50d91443b6c3db",
+    "name": "Pukenza",
+    "token": "PUKE",
+    "slug": "pukenza"
+  },
+  {
+    "address": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
+    "name": "CloneX",
+    "token": "CloneX",
+    "slug": "clonex"
+  },
+  {
+    "address": "0x34d85c9cdeb23fa97cb08333b511ac86e1c4e258",
+    "name": "Otherdeed",
+    "token": "OTHR",
+    "slug": "otherdeed"
+  },
+  {
+    "address": "0x572e33ffa523865791ab1c26b42a86ac244df784",
+    "name": "Gucci",
+    "token": "GUCCI",
+    "slug": "10ktf-gucci-grail"
+  },
+  {
+    "address": "0xd1169e5349d1cb9941f3dcba135c8a4b9eacfdde",
+    "name": "MAX PAIN AND FRENS OPEN EDITION BY XCOPY",
+    "token": "MAXPAINANDFRENSOPENEDITIONBYXCOPY",
+    "slug": "max-pain-and-frens-by-xcopy"
+  },
+  {
+    "address": "0x1cb1a5e65610aeff2551a50f76a87a7d3fb649c6",
+    "name": "Cryptoadz",
+    "token": "TOADZ",
+    "slug": "cryptoadz-by-gremplin"
+  },
+  {
+    "address": "0x059edd72cd353df5106d2b9cc5ab83a52287ac3a",
+    "name": "Art Blocks",
+    "token": "BLOCKS",
+    "slug": "art-blocks"
+  },
+  {
+    "address": "0xe0176ba60efddb29cac5b15338c9962daee9de0c",
+    "name": "PREMINT Collector",
+    "token": "PREMINTCOLL",
+    "slug": "premint-collector"
+  },
+  {
+    "address": "0x08d7c0242953446436f34b4c78fe9da38c73668d",
+    "name": "PROOF Collective",
+    "token": "PROOF",
+    "slug": "proof-collective"
+  },
+  {
+    "address": "0x79fcdef22feed20eddacbb2587640e45491b757f",
+    "name": "mfer",
+    "token": "MFER",
+    "slug": "mfers"
+  },
+  {
+    "address": "0x0cfb5d82be2b949e8fa73a656df91821e2ad99fd",
+    "name": "10KTF",
+    "token": "10KTF",
+    "slug": "10ktf"
+  },
+  {
+    "address": "0x1b39ff70ffda9f691ca370a2e765a9b72b0a37a4",
+    "name": "motozuki.com Mint Pass",
+    "token": "MZMP",
+    "slug": "motozuki-com-mint-pass"
+  },
+  {
+    "address": "0x6fe9c57ae423d14e78cdd5877d16558bb959d303",
+    "name": "EpicBeast",
+    "token": "EPICBEAST",
+    "slug": "epicbeast"
+  },
+  {
+    "address": "0x306b1ea3ecdf94ab739f1910bbda052ed4a9f949",
+    "name": "Beanz",
+    "token": "BEANZ",
+    "slug": "beanzofficial"
+  },
+  {
+    "address": "0x0ded8542fc8b2b4e781b96e99fee6406550c9b7c",
+    "name": "Gutter Punks - BEANZ",
+    "token": "GPB",
+    "slug": "gutter-punks-beanz"
+  },
+  {
+    "address": "0x5ab21ec0bfa0b29545230395e3adaca7d552c948",
+    "name": "PUNKS Comic",
+    "token": "COMIC",
+    "slug": "punks-comic"
+  },
+  {
+    "address": "0x4f8730e0b32b04beaa5757e5aea3aef970e5b613",
+    "name": "Bloot",
+    "token": "BLOOT",
+    "slug": "blootofficial"
+  },
+  {
+    "address": "0xb852c6b5892256c264cc2c888ea462189154d8d7",
+    "name": "Rektguy",
+    "token": "Rektguy",
+    "slug": "rektguy"
+  },
+  {
+    "address": "0x684e4ed51d350b4d76a3a07864df572d24e6dc4c",
+    "name": "Isekai Meta",
+    "token": "ISEKAI",
+    "slug": "projectisekaimeta"
+  },
+  {
+    "address": "0xc1ad47aeb274157e24a5f01b5857830aef962843",
+    "name": "Akumu Dragonz",
+    "token": "AKUMU",
+    "slug": "akumu-dragonz"
+  },
+  {
+    "address": "0x455c732fee7b5c3b09531439b598ead4817d5274",
+    "name": "adidasCapsule",
+    "token": "ADICAP",
+    "slug": "adidascapsule"
+  },
+  {
+    "address": "0xaad35c2dadbe77f97301617d82e661776c891fa9",
+    "name": "Akutars",
+    "token": "AKU",
+    "slug": "akutars"
+  },
+  {
+    "address": "0x07ce5d64b7b845c8ff645e9a3825f94e6bdd82f1",
+    "name": "JustCubes",
+    "token": "CUBE",
+    "slug": "justcubesnft"
+  },
+  {
+    "address": "0x9261b6239a85348e066867c366d3942648e24511",
+    "name": "MonkeyBet",
+    "token": "MBET",
+    "slug": "monkeybet"
+  },
+  {
+    "address": "0x2c89a52a7156a3fb0bf416d5231b68748e4c283c",
+    "name": "Probably A Label",
+    "token": "PAL",
+    "slug": "probablyalabel"
+  },
+  {
+    "address": "0x86c10d10eca1fca9daf87a279abccabe0063f247",
+    "name": "Cool Pets",
+    "token": "PETS",
+    "slug": "coolpetsnft"
+  },
+  {
+    "address": "0xc92ceddfb8dd984a89fb494c376f9a48b999aafc",
+    "name": "Creature World",
+    "token": "CREATURE",
+    "slug": "creatureworld"
+  },
+  {
+    "address": "0x818a19a6d3f0859b68e8490a6e945a51060caad1",
+    "name": "FOMO MOFOS",
+    "token": "FOMO",
+    "slug": "fomo-mofos"
+  },
+  {
+    "address": "0x3bf2922f4520a8ba0c2efc3d2a1539678dad5e9d",
+    "name": "0N1 Force",
+    "token": "0N1",
+    "slug": "0n1-force"
+  },
+  {
+    "address": "0x128675d4fddbc4a0d3f8aa777d8ee0fb8b427c2f",
+    "name": "PUNKS Comic 2",
+    "token": "COMIC2",
+    "slug": "punks-comic"
+  },
+  {
+    "address": "0xba627f3d081cc97ac0edc40591eda7053ac63532",
+    "name": "Bored \u0026amp; Dangerous",
+    "token": "BOOK",
+    "slug": "bored-and-dangerous"
+  },
+  {
+    "address": "0xf7d134224a66c6a4ddeb7dee714a280b99044805",
+    "name": "end of sartoshi",
+    "token": "END",
+    "slug": "end-of-sartoshi"
+  },
+  {
+    "address": "0x649edc1c85f32afebdcd49bfc1a69224cf6cae27",
+    "name": "Dont Buy Poo",
+    "token": "POO",
+    "slug": "dont-buy-poo"
+  },
+  {
+    "address": "0x52a043ec29fbb9a1b142b8913a76c0bc592d0849",
+    "name": "ForgedToken",
+    "token": "FT",
+    "slug": "clonexforged"
+  },
+  {
+    "address": "0x54439d4908a3e19356f876aa6022d67d0b3b12d6",
+    "name": "Origin Stories 1",
+    "token": "ORIGIN1",
+    "slug": "origin-stories"
+  },
+  {
+    "address": "0x4a4ee90995a98c1e44b5c259cc10f8a7c10a7832",
+    "name": "Gutter Punks - PXN: Ghost Division",
+    "token": "GPPGD",
+    "slug": "gutter-punks-pxn-ghost-division"
+  },
+  {
+    "address": "0x4008ceb985456a8571c0e7a281c3536a548fee85",
+    "name": "WGMI Premium Membership",
+    "token": "WGMI",
+    "slug": "wgmi-premium-membership"
+  },
+  {
+    "address": "0x33c6eec1723b12c46732f7ab41398de45641fa42",
+    "name": "[ Ledger ] Market Pass - Genesis Edition",
+    "token": "LMP",
+    "slug": "ledger-market-pass-genesis-edition"
+  },
+  {
+    "address": "0x03ef30e1aee25abd320ad961b8cd31aa1a011c97",
+    "name": "ConiunPass",
+    "token": "CPASS",
+    "slug": "coniun-pass"
+  },
+  {
+    "address": "0x0aa7420c43b8c1a7b165d216948870c8ecfe1ee1",
+    "name": "Thingdoms NFT Official",
+    "token": "THING",
+    "slug": "thingdoms"
+  },
+  {
+    "address": "0x1e038a99aac19162633dcc4d215e5a27e6eb0355",
+    "name": "ToadRunnerz",
+    "token": "TDRZ",
+    "slug": "toadrunnerz"
+  },
+  {
+    "address": "0xbd3531da5cf5857e7cfaa92426877b022e612cf8",
+    "name": "PudgyPenguins",
+    "token": "PPG",
+    "slug": "pudgypenguins"
+  },
+  {
+    "address": "0x099689220846644f87d1137665cded7bf3422747",
+    "name": "Robotos",
+    "token": "ROBO",
+    "slug": "robotos-official"
+  },
+  {
+    "address": "0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270",
+    "name": "Art Blocks",
+    "token": "BLOCKS",
+    "slug": "art-blocks"
+  },
+  {
+    "address": "0xdcc2a6f7cf14b5d2fc0f2731faf0a37b914a0c82",
+    "name": "Noodles",
+    "token": "NOODS",
+    "slug": "noodlesnft-official"
+  },
+  {
+    "address": "0x8d4e2435c262eb6df10e5e4672a8f07e42d8d67e",
+    "name": "Cryptorayrays",
+    "token": "rayrays",
+    "slug": "cryptorayrays-collection"
+  },
+  {
+    "address": "0x2acab3dea77832c09420663b0e1cb386031ba17b",
+    "name": "DeadFellaz",
+    "token": "DEADFELLAZ",
+    "slug": "deadfellaz"
+  },
+  {
+    "address": "0xf661d58cfe893993b11d53d11148c4650590c692",
+    "name": "MNLTHRVLD",
+    "token": "MNLTHRVLD",
+    "slug": "rtfkt-nike-cryptokicks"
+  },
+  {
+    "address": "0xd9b78a2f1dafc8bb9c60961790d2beefebee56f4",
+    "name": "tiny dinos",
+    "token": "dino",
+    "slug": "tiny-dinos-eth"
+  },
+  {
+    "address": "0xd2f668a8461d6761115daf8aeb3cdf5f40c532c6",
+    "name": "Karafuru",
+    "token": "KARAFURU",
+    "slug": "karafuru"
+  },
+  {
+    "address": "0x7fcbb823ff16110e5a14c3c897dc0af334423e4f",
+    "name": "MistleToadz",
+    "token": "MistleToadz",
+    "slug": "mistletoadz"
+  },
+  {
+    "address": "0x846716328715a312efd0d89c43938bb5c9f342d6",
+    "name": "GIToadz",
+    "token": "GITOADZ",
+    "slug": "gitoadz"
+  },
+  {
+    "address": "0x46ac8540d698167fcbb9e846511beb8cf8af9bd8",
+    "name": "Quantum Art",
+    "token": "QART",
+    "slug": "quantum-curated"
+  },
+  {
+    "address": "0xf8b0a49da21e6381f1cd3cf43445800abe852179",
+    "name": "CryptoFlyz",
+    "token": "FLYZ",
+    "slug": "cryptoflyz"
+  },
+  {
+    "address": "0x172700a7dbbf92ee1db1474f956fd1078d2d0a00",
+    "name": "Choadz",
+    "token": "CHOADZ",
+    "slug": "choadz"
+  },
+  {
+    "address": "0x30cdac3871c41a63767247c8d1a2de59f5714e78",
+    "name": "0bits",
+    "token": "0bits",
+    "slug": "obitsofficial"
+  },
+  {
+    "address": "0xf61f24c2d93bf2de187546b14425bf631f28d6dc",
+    "name": "World Of Women Galaxy",
+    "token": "WOWG",
+    "slug": "world-of-women-galaxy"
+  },
+  {
+    "address": "0x5bd815fd6c096bab38b4c6553cfce3585194dff9",
+    "name": "The Art of Seasons",
+    "token": "TAOS",
+    "slug": "the-art-of-seasons"
+  },
+  {
+    "address": "0x72d47d4d24018ec9048a9b0ae226f1c525b7e794",
+    "name": "BFF",
+    "token": "✺BFF",
+    "slug": "bff-friendship-bracelets"
+  },
+  {
+    "address": "0xc9677cd8e9652f1b1aadd3429769b0ef8d7a0425",
+    "name": "Elemental",
+    "token": "EMT",
+    "slug": "elemental-fang-lijun"
+  },
+  {
+    "address": "0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2",
+    "name": "MetaHero",
+    "token": "HERO",
+    "slug": "inhabitants-generative"
+  },
+  {
+    "address": "0xd0a07a76746707f6d6d36d9d5897b14a8e9ed493",
+    "name": "Pixel Vault Founder's DAO",
+    "token": "PVFD",
+    "slug": "foundersdao"
+  },
+  {
+    "address": "0x7afeda4c714e1c0a2a1248332c100924506ac8e6",
+    "name": "FVCK_CRYSTAL//",
+    "token": "CRYST",
+    "slug": "fvck-crystal"
+  },
+  {
+    "address": "0x05da517b1bf9999b7762eaefa8372341a1a47559",
+    "name": "Keepers",
+    "token": "KPR",
+    "slug": "kprverse"
+  },
+  {
+    "address": "0xe6a05f25a051a90d5d144c04f783f6999e48e32d",
+    "name": "MultibeastsByHaas",
+    "token": "MTBST",
+    "slug": "multibeastsbyhaas"
+  },
+  {
+    "address": "0x6cbe9edec134b9d750f4f515dc02a9bd656ed512",
+    "name": "Elite Ape Comic",
+    "token": "EACOMIC",
+    "slug": "apes-out-on-the-town"
+  },
+  {
+    "address": "0x37f02e4fa5f28a25baf64566083c717c387761d0",
+    "name": "PUNKS Comic 2: KIKI",
+    "token": "COMIC2KIK",
+    "slug": "punks2kiki"
+  },
+  {
+    "address": "0xe785e82358879f061bc3dcac6f0444462d4b5330",
+    "name": "World Of Women",
+    "token": "WOW",
+    "slug": "world-of-women-nft"
+  },
+  {
+    "address": "0x39ee2c7b3cb80254225884ca001f57118c8f21b6",
+    "name": "Potatoz",
+    "token": "Potatoz",
+    "slug": "thepotatoz"
+  },
+  {
+    "address": "0x1bb6edf7b129967d512086fbdf489ed659580916",
+    "name": "ForgedToken",
+    "token": "FT",
+    "slug": "rtfkt-nike-ar-hoodie"
+  },
+  {
+    "address": "0x7d8820fa92eb1584636f4f5b8515b5476b75171a",
+    "name": "Murakami.Flowers",
+    "token": "M.F",
+    "slug": "murakami-flowers-2022-official"
+  },
+  {
+    "address": "0xd9c036e9eef725e5aca4a22239a23feb47c3f05d",
+    "name": "MidnightBreeze",
+    "token": "MNB",
+    "slug": "midnightbreeze"
+  },
+  {
+    "address": "0xdedf88899d7c9025f19c6c9f188deb98d49cd760",
+    "name": "Murakami Lucky Cat Coin Bank",
+    "token": "Cat Coin Bank",
+    "slug": "murakami-lucky-cat-coin-bank"
+  },
+  {
+    "address": "0x8a939fd297fab7388d6e6c634eee3c863626be57",
+    "name": "TRAITORS open edition by XCOPY",
+    "token": "TRAITORSOPENEDITIONBYXCOPY",
+    "slug": "xcopy"
+  },
+  {
+    "address": "0xa5c0bd78d1667c13bfb403e2a3336871396713c5",
+    "name": "CoolmansUniverse",
+    "token": "COOLMAN",
+    "slug": "coolmans-universe"
+  },
+  {
+    "address": "0x015ac56d0cfb7adbac3ffbfabf67768f2f0996f3",
+    "name": "GEISAI 2022 Official",
+    "token": "memory",
+    "slug": "geisai-2022-official-nft"
+  },
+  {
+    "address": "0x39e23bf386df825d52d3e63aa80d59562ce21bde",
+    "name": "Digi Penguins Founders Pass",
+    "token": "DPFP",
+    "slug": "digi-penguins-founders-pass"
+  },
+  {
+    "address": "0x537b9af55dadcad9d22309e5b8ce35cffd8c1925",
+    "name": "Toad Sockz (Gen 0)",
+    "token": "SOCKZ",
+    "slug": "sockz0"
+  },
+  {
+    "address": "0xaadc2d4261199ce24a4b0a57370c4fcf43bb60aa",
+    "name": "TheCurrency",
+    "token": "TENDER",
+    "slug": "thecurrency"
+  },
+  {
+    "address": "0xbe9eac1ce0d844fc120ca1b3a921de483e8c4a05",
+    "name": "0N1 Comics",
+    "token": "COMICS",
+    "slug": "0n1-comics"
+  },
+  {
+    "address": "0x04b4786c3bb42387235a63628b7a4cb178817429",
+    "name": "GutterPunks.co",
+    "token": "MFNGP",
+    "slug": "mfn-gutter-punks"
+  },
+  {
+    "address": "0x6913233ada65330adf01f24f715dffcc60497cc8",
+    "name": "First Day Out",
+    "token": "FDO",
+    "slug": "firstdayout"
+  },
+  {
+    "address": "0x64ad353bc90a04361c4810ae7b3701f3beb48d7e",
+    "name": "Black Box",
+    "token": "BOX",
+    "slug": "renga-black-box"
+  },
+  {
+    "address": "0x6cfc9ca8da1d69719161ccc0ba4cfa95d336f11d",
+    "name": "0N1 Frame",
+    "token": "FRAME",
+    "slug": "0n1-frame"
+  },
+  {
+    "address": "0x134460d32fc66a6d84487c20dcd9fdcf92316017",
+    "name": "Woodie",
+    "token": "WOODIE",
+    "slug": "woodies-generative"
+  },
+  {
+    "address": "0xb716600ed99b4710152582a124c697a7fe78adbf",
+    "name": "PUNKS Comic 3",
+    "token": "COMIC3",
+    "slug": "punks-comic"
+  },
+  {
+    "address": "0x06911466341299d79e9e1368a016c73d009691cc",
+    "name": "FewoWorld Paint",
+    "token": "Paint",
+    "slug": "fewoworld-paint"
+  },
+  {
+    "address": "0x942bc2d3e7a589fe5bd4a5c6ef9727dfd82f5c8a",
+    "name": "Art Blocks Explorations",
+    "token": "EXPLORE",
+    "slug": "friendship-bracelets-by-alexis-andre"
+  },
+  {
+    "address": "0x19bb64b80cbf61e61965b0e5c2560cc7364c6546",
+    "name": "CREYZIES",
+    "token": "CREYZIES",
+    "slug": "creyzies"
+  },
+  {
+    "address": "0x670d4dd2e6badfbbd372d0d37e06cd2852754a04",
+    "name": "Super Cool World",
+    "token": "COOL",
+    "slug": "super-cool-world"
+  }
+]
