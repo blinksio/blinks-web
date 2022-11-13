@@ -61,6 +61,7 @@ const FocusGraph = (props: Props) => {
       <ForceGraph3D
         ref={fgRef}
         graphData={blink}
+        showNavInfo={false}
         nodeThreeObject={(node: any) => {
           if (node.image_url) {
             const imgTexture = new THREE.TextureLoader().load(node.image_url);
