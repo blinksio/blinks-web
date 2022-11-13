@@ -54,7 +54,7 @@ const AddressesGraph = () => {
   }
 
   return (
-    <Layout>
+    <Layout showHeader={true} blinkHeader={data.nodes[0]}>
       <div
         className="container mx-auto content-center h-full"
         ref={measuredRef}
