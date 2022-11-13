@@ -3,14 +3,16 @@ export type BlinkNode = {
   name: string;
   address: string;
   symbol: string;
-  meta: BlinkMeta
+  meta: BlinkMeta;
   image_url?: string | null;
+  links?: BlinkLinks[];
+  main?: boolean;
 };
 
 export type BlinkLinks = {
   source: number;
   target: number;
-}
+};
 
 export type Blink = {
   nodes: BlinkNode[];
@@ -18,9 +20,9 @@ export type Blink = {
 };
 
 export type BlinkMeta = {
-  discord_url?: string,
-  opensea_url?: string,
-  twitter_url?: string,
-  external_url?: string,
-  etherscan_url?: string
-}
+  discord_url?: string;
+  opensea_url?: string;
+  twitter_url?: string;
+  external_url?: string;
+  etherscan_url?: string;
+};
