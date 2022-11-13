@@ -19,13 +19,18 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
     <main className="flex w-full flex-1 flex-col items-center justify-center px-20 py-2 text-center mb-auto">
       {children}
     </main>
-    <footer className="flex flex-col h-32 w-full items-center justify-center border-t">
-      <span className="items-center justify-center gap-2 text-white py-2">
+    <footer className="flex flex-row h-20 w-full items-center justify-center border-t">
+      <span className="flex-1 items-center justify-center gap-2 text-white py-2 text-xs text-right">
         Powered by a couple of Mfers
       </span>
-
-      <div className="flex-auto pb-2">
-      <Image src="/mfer.svg" alt="Mfers Logo" width={72} height={16} className="rounded-2xl"/>
+      <div className="flex-1 pb-2 pl-2">
+        <Image
+          src="/mfer.svg"
+          alt="Mfers Logo"
+          width={40}
+          height={10}
+          className="rounded-2xl"
+        />
       </div>
     </footer>
   </div>
