@@ -1,45 +1,95 @@
-import { useCallback, useRef } from "react";
-import { ForceGraph3D, ForceGraphMethods$1, NodeObject$1 } from "react-force-graph";
+import { useCallback, useRef, useState } from "react";
+import {
+  ForceGraph3D,
+  ForceGraphMethods$1,
+} from "react-force-graph";
 import * as THREE from "three";
-import { Blink } from "../interfaces/blink";
+import SpriteText from "three-spritetext";
+import BlinkModal from "./Modal";
+import { Blink, BlinkNode } from "../interfaces/blink";
 
 type Props = {
-  blink: Blink
-}
+  blink: Blink;
+  backgroundColor: string;
+  width?: any;
+  height?: number;
+};
 
-const FocusGraph = ({ blink }: Props) => {
+const FocusGraph = (props: Props) => {
+  const { blink, ...styleProps } = props;
+
   const fgRef = useRef<ForceGraphMethods$1>();
+  const [isOpen, setOpenModal] = useState(false);
+  const [modalNodeData, setModalNodeData] = useState<Partial<BlinkNode>>({});
 
-  const handleClick = useCallback((node: NodeObject$1) => {
-    // Aim at node from outside it
-    const x = node.x || 0;
-    const y = node.y || 0;
-    const z = node.z || 0;
-    const distance = 40;
-    const distRatio = 1 + distance/Math.hypot(x, y, z);
+  const openModal = (nodeData: any) => {
+    setModalNodeData(nodeData);
+    setOpenModal(true);
+  }
 
-    fgRef.current?.cameraPosition(
-      { x: x * distRatio, y: y * distRatio, z: z * distRatio }, // new position
-      { x, y, z }, // lookAt ({ x, y, z })
-      3000  // ms transition duration
-    );
-  }, [fgRef]);
+  const closeModal = () => {
+    setOpenModal(false)
+  }
 
-  return <ForceGraph3D
-    ref={fgRef}
-    graphData={blink}
-    nodeThreeObject={({ image_url }: any) => {
-      const imgTexture = new THREE.TextureLoader().load(image_url);
-      const material = new THREE.SpriteMaterial({ map: imgTexture });
-      const sprite = new THREE.Sprite(material);
-      sprite.scale.set(12, 12, 0);
+  const handleClick = useCallback(
+    (node: any) => {
+      // Aim at node from outside it
+      const x = node.x || 0;
+      const y = node.y || 0;
+      const z = node.z || 0;
+      const distance = 40;
+      const distRatio = 1 + distance / Math.hypot(x, y, z);
 
-      return sprite;
-    }}
-    nodeLabel="id"
-    nodeAutoColorBy="group"
-    onNodeClick={handleClick}
-  />;
-}
+      fgRef.current?.cameraPosition(
+        { x: x * distRatio, y: y * distRatio, z: z * distRatio }, // new position
+        { x, y, z }, // lookAt ({ x, y, z })
+        3000 // ms transition duration
+      );
+
+      openModal({
+        name: node.name,
+        address: node.address,
+        symbol: node.symbol,
+        meta: node.meta,
+        image_url: node.image_url,
+      });
+    },
+    [fgRef]
+  );
+
+  return (
+    <>
+    <ForceGraph3D
+      ref={fgRef}
+      graphData={blink}
+      nodeThreeObject={(node: any) => {
+        if (node.image_url) {
+          const imgTexture = new THREE.TextureLoader().load(node.image_url);
+          const material = new THREE.SpriteMaterial(
+            {
+              map: imgTexture,
+            });
+          const sprite = new THREE.Sprite(material);
+          sprite.scale.set(12, 12, 0);
+
+          return sprite;
+        }
+
+        const sprite = new SpriteText(node.name);
+        sprite.material.depthWrite = false; // make sprite background transparent
+        sprite.color = node.color;
+        sprite.textHeight = 8;
+        return sprite;
+
+      }}
+      nodeLabel="name"
+      nodeAutoColorBy="id"
+      onNodeClick={handleClick}
+      {...styleProps}
+    />
+    <BlinkModal isOpen={isOpen} closeModal={closeModal} data={modalNodeData}/>
+    </>
+  );
+};
 
 export default FocusGraph;
