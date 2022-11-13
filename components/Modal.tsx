@@ -37,7 +37,7 @@ export default function BlinkModal({ isOpen, closeModal, data }: Props) {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-slate-800 p-6 text-left align-middle shadow-xl transition-all">
+              <Dialog.Panel className="absolute top-5 left-5 w-full max-w-md transform overflow-hidden rounded-2xl bg-slate-800 p-6 text-left align-middle shadow-xl transition-all">
                 <Dialog.Title
                   as="h3"
                   className="text-xl font-medium leading-6 text-slate-200 text-center"
@@ -58,6 +58,8 @@ export default function BlinkModal({ isOpen, closeModal, data }: Props) {
                     <a
                       href={data?.meta?.etherscan_url as string || (data.address ? `https://etherscan.io/address/${data.address}` : "")}
                       className="mx-1"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <Image
                       src={"/etherscan-logo-light-circle.svg"}
@@ -69,6 +71,8 @@ export default function BlinkModal({ isOpen, closeModal, data }: Props) {
                     <a
                       href={data?.meta?.opensea_url as string || (data.address ? `https://opensea.io/assets/ethereum/${data.address}/1` : "")}
                       className="mx-1"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <Image
                       src={"/opensea.svg"}
