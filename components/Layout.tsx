@@ -39,7 +39,7 @@ const Layout = ({ children, title = "Blinks", showHeader = false, blinkHeader }:
       {children}
     </main>
     <footer className="flex flex-row h-20 w-full items-center justify-center border-t">
-      <span className="flex-1 items-center justify-center gap-2 text-white py-2 text-xs text-right">
+      <span className="flex-1 items-center justify-center gap-2 text-white py-2 text-xs text-right font-mono">
         Powered by a couple of Mfers
       </span>
       <div className="flex-1 pb-2 pl-2">
