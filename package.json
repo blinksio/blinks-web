@@ -2,7 +2,7 @@
   "name": "blinks-web",
   "version": "0.1.0",
   "engines": {
-    "node": "18"
+    "node": "16"
   },
   "scripts": {
     "setup": "npm install --ignore-scripts && npm run postinstall",
