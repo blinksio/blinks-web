@@ -1,32 +1,14 @@
 import { useRouter } from "next/router";
-import useSWR, { Fetcher } from "swr";
+import useSWR from "swr";
 import Layout from "../../components/Layout";
 import { Blink } from "../../interfaces/blink";
 import dynamic from "next/dynamic";
 import React, {
-  ReactNode,
   useCallback,
-  useEffect,
-  useRef,
   useState,
 } from "react";
 import SearchBox from "../../components/SearchBox";
-
-const fetcher: Fetcher<Blink> = async (url: string) => {
-  const res = await fetch(url);
-  // If the status code is not in the range 200-299,
-  // we still try to parse and throw it.
-  if (!res.ok) {
-    const error: Error & { status?: number } = new Error(
-      "An error occurred while fetching the data."
-    );
-    // Attach extra info to the error object.
-    error.status = res.status;
-    throw error;
-  }
-
-  return res.json();
-};
+import fetcher from "../../utils/fetcher";
 
 const AddressesGraph = () => {
   const FocusGraph = dynamic(() => import("../../components/FocusGraph"), {
@@ -34,7 +16,7 @@ const AddressesGraph = () => {
   });
   const router = useRouter();
   const address = router.query.address as string;
-  const { data, error } = useSWR(`/api/blink/${address}`, fetcher);
+  const { data, error } = useSWR(`/api/blink/${address}`, fetcher<Blink>);
 
   const [height, setHeight] = useState<number>(0);
   const [width, setWidth] = useState<number>(0);
